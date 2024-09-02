@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(207, 220, 118);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.grid-container div {
+    padding: 10px;
+    border: 1px solid #000000;
+}
+.header {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+.casella {
+    background-color: #ffffff;
+}
+#text{
+    display: inline-block;
+}
+#casa{
+    margin-left: 70%;
+    margin-right: 3%; 
+    display: inline-block;
+}
+#home{
+    background-image: url('images.png'); 
+    background-size: cover;
+    background-position: center; 
+    border: solid black 2px; 
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+
+}
+#home:hover {
+    transform: scale(1.1);
+}

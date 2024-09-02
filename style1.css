@@ -1,0 +1,68 @@
+body {
+    background-image: url('1.png'); 
+    background-size:cover; 
+    background-repeat: no-repeat; 
+    background-position: center 1% 
+}
+.button{
+    font-size: 140%;
+    margin-left: 84%;
+    border: none; 
+    color: white; 
+    text-align: center;
+    cursor: pointer;  
+    border-radius: 15px; 
+    width: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+        
+}
+.button:hover {
+    transform: scale(1.1); 
+}
+#text1{
+    font-size: 120%;
+    text-align: right;
+    margin-right: 1%;
+}
+#text2{
+    font-size: 120%;
+    text-align: right;
+    margin-right: 1%;
+}
+#p1{
+    font-size: 140%;
+    margin-left: 84%;
+    border: none; 
+    color: white; 
+    text-align: center;
+    border-radius: 15px; 
+    width: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+    background-color: rgb(255, 41, 41);
+    
+}
+#p2{
+    font-size: 140%;
+    margin-left: 84%;
+    border: none; 
+    color: white; 
+    text-align: center;
+    border-radius: 15px; 
+    width: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+    background-color: rgb(41, 41, 248);   
+}
+#vo{
+    margin-bottom: 2%; 
+    background-color: green;
+    
+    margin-top: 11%;
+}
+#play{
+    background-color: yellow;
+}
